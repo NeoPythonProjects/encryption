@@ -4,22 +4,42 @@
       {
         "id": "c3f4d0dd-eeca-4f51-9760-e36964e99225",
         "line": 15,
-        "version": 1213,
-        "index": 267
+        "version": 1487,
+        "index": 269
       },
       {
         "id": "3be28caf-29e5-440f-bcdb-d588b2b7c31d",
         "line": 17,
-        "version": 991,
-        "index": 317
+        "version": 1487,
+        "index": 347
       }
     ],
     "files/.gitignore": [
       {
         "id": "eae581ed-745c-42e8-b142-02ffd5e4de8a",
         "line": 1,
-        "version": 21,
+        "version": 29,
         "index": 0
+      }
+    ],
+    "mysqldb.py": [
+      {
+        "id": "fe072c59-4a52-4da8-8a9c-bfcba9e641b5",
+        "line": 9,
+        "version": 2484,
+        "index": 211
+      },
+      {
+        "id": "1fbd97e3-7fbf-4302-a2c4-9c5decb5239d",
+        "line": 20,
+        "version": 2484,
+        "index": 506
+      },
+      {
+        "id": "5389b1d9-90ae-4d8e-bc87-e9539e0dd8a0",
+        "line": 107,
+        "version": 2484,
+        "index": 2328
       }
     ]
   }

@@ -93,7 +93,6 @@ def user_exists_cursor(user: str) -> str:
 def user_exists(user: str) -> bool:  
   # Pythonic: an empty list is False
   if not user_exists_cursor(user):
-    print(f"login failed")
     return False
     exit()
   return True

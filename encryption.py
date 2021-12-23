@@ -1,7 +1,7 @@
 from cryptography.fernet import Fernet
 
 
-def get_encryption_key() -> str:
+def get_encryption_key() -> bytes:
   # in GUI ask user to select text file to upload
   # for now, we use the scratch file
   src_file = 'files/scratch.txt'

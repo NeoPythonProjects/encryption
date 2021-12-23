@@ -1,5 +1,6 @@
 from encryption import get_encryption_key, encrypt, decrypt
 from decorators import logged_in
+from login import encrypt_password
 
 @logged_in
 def main(user: str, pw: str) -> None:
@@ -15,5 +16,5 @@ if __name__ == "__main__":
   # print(msg_enc_b)
   # msg = decrypt(msg_enc_b, key)
   # print(msg)
-  main(user='NeoPythonProjects', pw='LouNPP@17')
+  #main(user='NeoPythonProjects', pw=encrypt_password(''))
   
