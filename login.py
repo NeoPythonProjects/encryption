@@ -28,6 +28,11 @@ def get_stored_pwd(user: str) -> hex:
       return f.read()
 
 
+def encrypt_password(pw: str) -> hex:
+  # convert pw to bytes using str.encode()
+  return md5(pw.encode()).hexdigest()
+
+
 def main():
   user=""
   user_pw_hex = get_stored_pwd(user)

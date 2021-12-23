@@ -1,5 +1,19 @@
 {
   "files": {
+    "decorators.py": [
+      {
+        "id": "c3f4d0dd-eeca-4f51-9760-e36964e99225",
+        "line": 15,
+        "version": 1213,
+        "index": 267
+      },
+      {
+        "id": "3be28caf-29e5-440f-bcdb-d588b2b7c31d",
+        "line": 17,
+        "version": 991,
+        "index": 317
+      }
+    ],
     "files/.gitignore": [
       {
         "id": "eae581ed-745c-42e8-b142-02ffd5e4de8a",

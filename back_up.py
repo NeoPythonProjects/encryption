@@ -30,9 +30,8 @@ def convert_pw(user_pw_str="PASSWORD") -> hex:
     f.write(mdpass.hexdigest())
   return None 
 
-def encrypt_password(pw: str) -> bytes:
-  # convert pw to bytes using str.encode()
-  return md5(pw.encode())
+
+
 
 
 
