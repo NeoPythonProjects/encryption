@@ -1,0 +1,13 @@
+password vault
+==============
+
+objective
+---------
+to safely store passwords encrypted using a symmetric key in an app, so that passwords can be made available to partner in case of death.
+
+app will have a password to log in
+once logged in, the user will need the public key
+
+could be a little executable (windows)
+tkinter or pyqt as GUI
+
